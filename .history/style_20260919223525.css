@@ -125,8 +125,7 @@ body>*:not(.stars) {
     color: var(--cream);
 }
 
-/* No matter what, marigold should be used for the hot class,
-so !important is added to override any other styles that may be applied to it. */
-.hot {
+< !-- No matter what marigold should be used for the hot class,
+so important is added to override any other styles that may be applied to it.===-->.hot {
     color: var(--marigold) !important;
 }
