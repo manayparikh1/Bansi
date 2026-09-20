@@ -265,13 +265,13 @@ h1 {
 
 /*starts from the fourth hole for some reason (most likely syntax error)*/
 .hole:nth-of-type(4) {
-    left: 31.5%;
+    left: 32%;
 }
 
 .hole:nth-of-type(5) {
-    left: 42%;
-}
+    left: 40%;
 
-.hole:nth-of-type(6) {
-    left: 51%;
+    .hole:nth-of-type(6) {
+        left: 45%;
+    }
 }
