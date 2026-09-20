@@ -135,15 +135,15 @@ so !important is added to override any other styles that may be applied to it. *
 /* I change the view height a bit to make it more visually appealing */
 .hero {
     position: relative;
-    min-height: calc(100vh - 57px);
-    min-height: calc(100svh - 57px);
+    min-height: calc(100vh-57px);
+    min-height: calc(500svh-57px);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 40px var(--pad) 70px;
+    padding: 40px var(--pad)70px;
     background:
         radial-gradient(1100px 620px at 78% 22%, rgba(35, 42, 92, 0.85) 0%, transparent 70%),
-        radial-gradient(760px 423px at 8% 85%, rgba(31, 165, 160, 0.1), transparent 70%);
+        radial-gradient(760px 423px at 8% 85%, rgba(31, 165, 160, 0.1), transparent 70%),
 }
 
 .hero-inner {
@@ -213,14 +213,14 @@ h1 {
 /*bambooo*/
 .tube {
     position: relative;
-    border-radius: 26px;
     height: 54px;
+    border-radius: 27px;
     background: linear-gradient(180deg, var(--bamboo) 0%, var(--bamboo2) 62%, #6F5124 100%);
 }
 
 .tube.big {
-    height: 62px;
-    border-radius: 30px;
+    height: 64px;
+    border-radius: 32px;
 }
 
 .node {
@@ -228,36 +228,13 @@ h1 {
     top: 0;
     bottom: 0;
     width: 9px;
-    background: rgba(73, 55, 46, 0.5)
+    background: rgba(70, 48, 18, 0.6);
 }
 
-/* THE FLUTE PIC TyPE OF THING WILL BE ON THE TOP OF THE PAGE (not the testing one) */
 .n1 {
-    left: 22%
+    left: 22%;
 }
 
 .n2 {
-    left: 62%;
-}
-
-.blow {
-    position: absolute;
-    left: 7%;
-    top: 50%;
-    width: 26px;
-    height: 20px;
-    margin-top: -10px;
-    border-radius: 50%;
-    background: rgba(73, 55, 46, 0.5);
-}
-
-.hole {
-    position: absolute;
-    top: 50%;
-    width: 20px;
-    height: 20px;
-    margin-top: -11px;
-    border-radius: 50%;
-    background: rgba(73, 55, 46, 0.5);
-    transition: background 0.09s, box-shadow 0.09s;
+    left: 63%;
 }

@@ -135,15 +135,15 @@ so !important is added to override any other styles that may be applied to it. *
 /* I change the view height a bit to make it more visually appealing */
 .hero {
     position: relative;
-    min-height: calc(100vh - 57px);
-    min-height: calc(100svh - 57px);
+    min-height: calc(100vh-57px);
+    min-height: calc(500svh-57px);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 40px var(--pad) 70px;
+    padding: 40px var(--pad)70px;
     background:
         radial-gradient(1100px 620px at 78% 22%, rgba(35, 42, 92, 0.85) 0%, transparent 70%),
-        radial-gradient(760px 423px at 8% 85%, rgba(31, 165, 160, 0.1), transparent 70%);
+        radial-gradient(760px 423px at 8% 85%, rgba(31, 165, 160, 0.1), transparent 70%),
 }
 
 .hero-inner {
@@ -249,6 +249,7 @@ h1 {
     margin-top: -10px;
     border-radius: 50%;
     background: rgba(73, 55, 46, 0.5);
+    transform: background 0.09s, box-shadow 0.09s;
 }
 
 .hole {
