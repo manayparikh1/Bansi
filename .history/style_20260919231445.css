@@ -180,9 +180,6 @@ h1 {
     background: var(--bamboo);
     padding: 14px 30px;
     font-size: 15px;
+    padding: 14px 30px;
     color: var(--night);
-}
-
-.cta:hover {
-    background: var(--marigold);
 }

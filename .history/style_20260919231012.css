@@ -80,7 +80,7 @@ em {
         radial-gradient(1.2px 1.2px at 77% 69%, rgba(243, 234, 217, 0.36) 50%, transparent 51%),
         radial-gradient(1.5px 1.5px at 90% 35%, rgba(243, 234, 217, 0.45) 50%, transparent 51%),
         radial-gradient(1.2px 1.2px at 25% 85%, rgba(243, 234, 217, 0.35) 50%, transparent 51%),
-        radial-gradient(1.3px 1.3px at 66% 88%, rgba(243, 234, 217, 0.39) 50%, transparent 51%),
+        radial-gradient(1.3px 1.3px at 66% 88%, rgba(243, 234, 217, 0.39) 50%, transparent 51%);
 }
 
 body>*:not(.stars) {
@@ -135,15 +135,15 @@ so !important is added to override any other styles that may be applied to it. *
 /* I change the view height a bit to make it more visually appealing */
 .hero {
     position: relative;
-    min-height: calc(100vh-57px);
-    min-height: calc(500svh-57px);
+    min-height: calc(100vh - 57px);
+    min-height: calc(500svh - 57px);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 40px var(--pad)70px;
+    padding: 40px var(--pad) 70px;
     background:
         radial-gradient(1100px 620px at 78% 22%, rgba(35, 42, 92, 0.85) 0%, transparent 70%),
-        radial-gradient(760px 423px at 8% 85%, rgba(31, 165, 160, 0.1), transparent 70%),
+        radial-gradient(760px 423px at 8% 85%, rgba(31, 165, 160, 0.1), transparent 70%);
 }
 
 .hero-inner {
@@ -158,31 +158,4 @@ so !important is added to override any other styles that may be applied to it. *
     margin-bottom: 22px;
 }
 
-.eyebrow.g {
-    color: var(--marigold);
-}
-
-h1 {
-    font-size: clamp(42px, 6.6vw, 96px);
-    margin-bottom: 26px;
-}
-
-.stand {
-    max-width: 56ch;
-    font-size: clamp(17px, 2.1vw, 22px);
-    color: #7f7f7f;
-    margin-bottom: 29px;
-}
-
-.cta {
-    display: inline-block;
-    letter-spacing: 0.05em;
-    background: var(--bamboo);
-    padding: 14px 30px;
-    font-size: 15px;
-    color: var(--night);
-}
-
-.cta:hover {
-    background: var(--marigold);
-}
+.eyebrow.gol {}
