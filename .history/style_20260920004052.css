@@ -242,7 +242,7 @@ h1 {
 }
 
 .n3 {
-    left: 90%;
+    left: 110%;
 }
 
 .blow {
@@ -267,26 +267,27 @@ h1 {
     transition: background 0.09s, box-shadow 0.09s;
 }
 
-.h0 {
+/*starts from the fourth hole for some reason (most likely syntax error)*/
+.hole:nth-of-type(4) {
     left: 31.5%;
 }
 
-.h1 {
+.hole:nth-of-type(5) {
     left: 41.5%;
 }
 
-.h2 {
+.hole:nth-of-type(6) {
     left: 51%;
 }
 
-.h3 {
+.hole:nth-of-type(7) {
     left: 69%;
 }
 
-.h4 {
+.hole:nth-of-type(8) {
     left: 76.5%;
 }
 
-.h5 {
+.hole:nth-of-type(9) {
     left: 84%;
 }
