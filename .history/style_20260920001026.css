@@ -262,7 +262,3 @@ h1 {
     background: rgba(73, 55, 46, 0.5);
     transition: background 0.09s, box-shadow 0.09s;
 }
-
-.hole:nth-of-type(4) {
-    left: 32%;
-}
