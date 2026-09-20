@@ -211,31 +211,3 @@ h1 {
 }
 
 /*bambooo*/
-.tube {
-    position: relative;
-    border-radius: 26px;
-    height: 54px;
-    background: var(--bamboo);
-}
-
-.tube.b {
-    height: 62px;
-    border-radius: 30px;
-}
-
-.node {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 9px;
-    background: rgba(73, 55, 46, 0.5)
-}
-
-/* THE FLUTE PIC TyPE OF THING WILL BE ON THE TOP OF THE PAGE (not the testing one) */
-.n1 {
-    left: 22%
-}
-
-.n2 {
-    left: 62%;
-}
