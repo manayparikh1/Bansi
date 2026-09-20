@@ -90,17 +90,14 @@ body>*:not(.stars) {
 
 /*-- Nav --*/
 .bar {
-    position: sticky;
+    position: hidden;
     top: 0;
-    z-index: 30;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    backdrop-filter: blur(8px);
-    border-bottom: 1px solid #2a2a5f;
-    padding: 15px var(--pad);
-    background: rgba(14, 16, 38, 0.87);
+    z-index: 2;
 }
 
-.mark {}
+
+
+
+
+
+}

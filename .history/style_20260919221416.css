@@ -88,19 +88,9 @@ body>*:not(.stars) {
     z-index: 1;
 }
 
-/*-- Nav --*/
-.bar {
-    position: sticky;
-    top: 0;
-    z-index: 30;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    backdrop-filter: blur(8px);
-    border-bottom: 1px solid #2a2a5f;
-    padding: 15px var(--pad);
-    background: rgba(14, 16, 38, 0.87);
-}
 
-.mark {}
+
+
+
+
+}

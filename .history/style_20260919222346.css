@@ -100,7 +100,5 @@ body>*:not(.stars) {
     backdrop-filter: blur(8px);
     border-bottom: 1px solid #2a2a5f;
     padding: 15px var(--pad);
-    background: rgba(14, 16, 38, 0.87);
+    background: rgba(14, 16, 38, 0.878);
 }
-
-.mark {}

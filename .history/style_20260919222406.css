@@ -102,5 +102,3 @@ body>*:not(.stars) {
     padding: 15px var(--pad);
     background: rgba(14, 16, 38, 0.87);
 }
-
-.mark {}
