@@ -295,7 +295,6 @@ h1 {
 /*it is the titles of the whole thing (very important for looks+organization*/
 .band {
     padding: clamp(70px, 9vw, 130px) 0;
-    /*changing it into a dual line which willl look SUPER awesome*/
     border-top: 1px solid #444482;
 
 }
