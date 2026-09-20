@@ -1,0 +1,14 @@
+:root {
+    --night: #1c204a;
+    --violet: #30397d;
+    --deep: #101644;
+    --cream: #ededcc;
+    --bamboo: #C9A15c;
+    --bamboo2: #C9A15c;
+    --marigold: #ec9c40;
+    --rose: #f17458;
+    --peacock: #49925e;
+    --muted: #f2f2f2;
+    --wrap: 1360px;
+    --pad: clamp(20px, 4vw, 64px);
+}
