@@ -199,15 +199,9 @@ h1 {
     animation: float 9s ease-in-out infinite;
 }
 
-/*helps with the animation of the design*/
 .scroll-hint {
     position: absolute;
     left: var(--pad);
     bottom: 25px;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    color: var(--muted);
-    font-size: 12px;
-}
 
-/*bambooo*/
+}

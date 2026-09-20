@@ -190,24 +190,9 @@ h1 {
 .hero-flute {
     position: absolute;
     right: -5%;
-    bottom: 11%;
+    bottom: 10%;
     width: 62%;
     max-width: 890px;
-    transform: rotate(-13.5deg);
-    opacity: 0.945;
-    pointer-events: none;
-    animation: float 9s ease-in-out infinite;
-}
+    transform: rotate(-14deg);
 
-/*helps with the animation of the design*/
-.scroll-hint {
-    position: absolute;
-    left: var(--pad);
-    bottom: 25px;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    color: var(--muted);
-    font-size: 12px;
 }
-
-/*bambooo*/
