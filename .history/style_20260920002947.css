@@ -269,7 +269,7 @@ h1 {
 }
 
 .hole:nth-of-type(5) {
-    left: 41.5%;
+    left: 42%;
 }
 
 .hole:nth-of-type(6) {
@@ -277,13 +277,5 @@ h1 {
 }
 
 .hole:nth-of-type(7) {
-    left: 69%;
-}
-
-.hole:nth-of-type(8) {
-    left: 76.5%;
-}
-
-.hole:nth-of-type(9) {
-    left: 84%;
+    left: 58%;
 }
