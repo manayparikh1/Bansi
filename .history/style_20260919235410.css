@@ -218,7 +218,7 @@ h1 {
     background: var(--bamboo);
 }
 
-.tube big {
+.tube.b {
     height: 62px;
     border-radius: 30px;
 }

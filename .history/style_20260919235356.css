@@ -178,7 +178,7 @@ h1 {
     display: inline-block;
     letter-spacing: 0.05em;
     background: var(--bamboo);
-    padding: 14px 29px;
+    padding: 14px 30px;
     font-size: 15px;
     color: var(--night);
 }
@@ -218,7 +218,7 @@ h1 {
     background: var(--bamboo);
 }
 
-.tube big {
+.tube.b {
     height: 62px;
     border-radius: 30px;
 }
