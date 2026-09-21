@@ -473,33 +473,3 @@ kbd {
     margin: 0 2px;
     color: var(--cream);
 }
-
-/* playable flute*/
-
-.instrument {
-    margin-bottom: 26px;
-}
-
-.play-tube {
-    max-width: 100%;
-}
-
-.instrument.sounding .play-tube {
-    background: linear-gradient(180deg, var(--marigold) 0%, var(--bamboo2) 62%, #6F5124 100%);
-}
-
-.hole.closed {
-    background: var(--marigold);
-    box-shadow: 0 0 0 4px rgba(232, 240, 67, 0.3);
-}
-
-.breath {
-    margin: 12px 0 0;
-    font-size: 13px;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-
-    instrument.sounding .breath {
-        color: var(orange);
-    }
-}
