@@ -376,7 +376,7 @@ h2 {
 }
 
 /*people*/
-.people {
+.figures {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
@@ -454,14 +454,6 @@ h2 {
     margin-bottom: 34px;
 }
 
-.gold {
-    font-size: 12.5px;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    color: var(--bamboo);
-    margin-bottom: 10px;
-}
-
 .thestudio-head h2 {
     margin-bottom: 14px;
 }
@@ -488,7 +480,11 @@ kbd {
     margin-bottom: 26px;
 }
 
-.instrument.sounding .tube {
+.play-tube {
+    max-width: 100%;
+}
+
+.instrument.sounding .play-tube {
     background: linear-gradient(180deg, var(--marigold) 0%, var(--bamboo2) 62%, #6F5124 100%);
 }
 
@@ -502,14 +498,14 @@ kbd {
     font-size: 13px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-}
 
-.instrument.sounding .breath {
-    color: var(--marigold);
+    .instrument.sounding .breath {
+        color: var(orange);
+    }
 }
 
 /* controls*/
-.thedesk {
+.desk {
     display: flex;
     flex-wrap: wrap;
     gap: clamp(20px, 3vw, 46px);
@@ -619,11 +615,11 @@ kbd {
     border-radius: 50%;
 }
 
-.thepads:hover {
+.thePads:hover {
     border-color: var(--bamboo);
 }
 
-.thepads.lit {
+.thepAds.lit {
     background: var(--marigold);
     color: var(--night);
     transform: translateY(1.7px);
@@ -635,7 +631,7 @@ kbd {
     border-color: var(--night);
 }
 
-.thefootnote {
+.footnote {
     margin-top: 26px;
     max-width: 78ch;
     font-size: 13px;
