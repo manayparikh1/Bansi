@@ -510,15 +510,4 @@ kbd {
     flex-wrap: wrap;
     gap: clamp(20px, 3vw, 46px);
     padding: 22px 0 26px;
-    border-top: 1px solid #363673;
-    border-bottom: 1px solid #202347;
-    margin-bottom: 26px;
-}
-
-.set-label {
-    font-size: 11px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 10px;
 }
