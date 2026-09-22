@@ -581,13 +581,13 @@ kbd {
     transition: transform 0.006s, background 0.06s;
     touch-action: none;
     user-select: none;
-    margin-bottom: 20px;
 }
 
 .thepads b {
     display: block;
     font-size: 22px;
     margin-bottom: 4px;
+    margin-top: 6px;
 }
 
 .thepads kbd {

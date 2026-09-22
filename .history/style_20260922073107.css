@@ -576,12 +576,12 @@ kbd {
     color: var(--cream);
     background: #1a2173;
     border: 1px solid #4646a7;
+    padding: 22px 8px 16px;
     cursor: pointer;
     text-align: center;
     transition: transform 0.006s, background 0.06s;
     touch-action: none;
     user-select: none;
-    margin-bottom: 20px;
 }
 
 .thepads b {
@@ -638,27 +638,3 @@ kbd {
 }
 
 /*--footer--*/
-
-.foot {
-    padding: 60px 0 70px;
-    border-top: 1px solid var(--violet);
-}
-
-.foot-big {
-    font-family: 'Marcellus', serif;
-    font-size: 34px;
-    color: var(--bamboo);
-    margin-bottom: 8px;
-}
-
-.foot p {
-    margin: 0 0 5.6px;
-    font-size: 13px;
-}
-
-.foot .small {
-    color: var(--muted);
-    font-size: 13px;
-}
-
-/*smaller screens*/
