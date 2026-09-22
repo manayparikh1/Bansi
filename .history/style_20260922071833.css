@@ -583,22 +583,3 @@ kbd {
     touch-action: none;
     user-select: none;
 }
-
-.thepads b {
-    display: block;
-    font-size: 22px;
-    margin-bottom: 4px;
-}
-
-.thepads kbd {
-    margin-top: 10px;
-}
-
-.thepads span {
-    display: block;
-    font-family: 'arial', sans-serif;
-    font-size: 12px;
-    letter-spacing: 0.1em;
-    color: var(--muted);
-    margin-top: 6px;
-}
