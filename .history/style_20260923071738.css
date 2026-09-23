@@ -657,7 +657,6 @@ kbd {
 .thefootnote {
     margin-top: 26px;
     margin-left: 26px;
-    margin-right: 26px;
     font-size: 13px;
     color: var(--muted);
 }
