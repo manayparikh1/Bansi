@@ -15,7 +15,7 @@ const hzFor = i => baseHz * 2 ** (thaats[thaat][i] / 12);
 
 function playNote(i) {
     if (voices.has(i)) return;
-    const osc = ctx.createOscillator(), gain = ctx.createGain();
+    const osc = ctx.createoscillator(), gain = ctx.createGain();
     osc.type = "sine"; osc.frequency.value = hzFor(i);
     gain.gain.setValueAtTime(0.3, ctx.currentTime);
     osc.connect(gain).connect(ctx.destination);
@@ -25,3 +25,12 @@ function playNote(i) {
     $("breath").textContent = SWARAS[i];
 }
 
+function stopNote(i) {
+    const v = voices.get(i);
+    if (!v) return;
+    v.gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.2);
+    v.osc.stop(ctx.currentTime + 0.2);
+    voices.delete(i);
+    pads[i].classList.remove("lit");
+    if (voices.size === 0) $("breath").textContent = "resting";
+}
