@@ -34,3 +34,26 @@ function stopNote(i) {
     pads[i].classList.remove("lit");
     if (voices.size === 0) $("breath").textContent = "resting";
 }
+function toggleDrone() {
+
+    if (drone) {
+        drone.stop(); drone = null;
+        $("drone").textContent = "Drone Off"; return;
+    }
+    drone = ctx.createoscillator();
+    drone.type = "triangle"; drone.frequency.value = baseHz;
+    drone.connect(ctx.destination); drone.start();
+    $("drone").textContent = "Drone On";
+}
+
+pads.forEach((pad, i) => {
+    pad.addEventListener("pointerdown", () => { ctx.resume(); playNote(i) });
+    pad.addEventListener("pointerup", () => stopNote(i));
+});
+window.addEventListener("keydown", e => { const i = KEYS.indexOf(e.key.toLowerCase()); if (i > -1 && !e.repeat) { ctx.resume(); playNote(i) } });
+window.addEventListener("keyup", e => { const i = KEYS.indexOf(e.key.toLowerCase()); if (i > -1) stopNote(i) });
+$("thaats").addEventListener("click", e => { const b = e.target.closest(".chip"); if (b) { thaat = b.dataset.thaat;[...$("thaats").children].forEach(c => c.classList.toggle("on", c === b)) } });
+$("sizes").addEventListener("click", e => { const b = e.target.closest(".chip"); if (b) { baseHz = Number(b.dataset.base);[...$("sizes").children].forEach(c => c.classList.toggle("on", c === b)) } });
+$("drone").addEventListener("click", () => { ctx.resume(); toggleDrone() });
+
+
