@@ -8,4 +8,20 @@ const swaras = ["Sa", "Re", "Ga", "Ma", "Pa", "Dha", "Ni", "Sa"], deva = ["рд╕рд
 //These are real fingerings gotten straight from bansuri and 1 means closed and 0 means open.
 let thaat = "bilawal", baseHz = 293.66, drone = null;
 const voices = new Map(), padBox = $("thepads")
-SWARAS.forEach((n, i) => padBox.insertAdjacentHTML("beforeend", `<button class="pad" data-i="${i}"><b>${DEVA[i]}</b><span>${n}</span><kbd>${KEYS[i].toUpperCase()}</kbd></button>`));
+swaras.forEach((n, i) => padBox.insertAdjacentHTML("beforeend", `<button class="pad" data-i="${i}"><b>${DEVA[i]}</b><span>${n}</span><kbd>${KEYS[i].toUpperCase()}</kbd></button>`));
+const thepads = [...document.querySelectorAll(".pad")];
+
+const hzFor = i => baseHz * 2 ** (thaats[thaat][i] / 12);
+
+function playNote(i) {
+    if (voices.has(i)) return;
+    const osc = ctx.createOscillator(), gain = ctx.createGain();
+    osc.type = "sine"; osc.frequency.value = hzFor(i);
+    gain.gain.setValueAtTime(0.3, ctx.currentTime);
+    osc.connect(gain).connect(ctx.destination);
+    osc.start();
+    voices.set(i, { osc, gain });
+    pads[i].classList.add("lit");
+    $("breath").textContent = SWARAS[i];
+}
+
