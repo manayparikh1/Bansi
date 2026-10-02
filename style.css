@@ -745,4 +745,21 @@ kbd {
     .hero-flute {
         animation: none;
     }
+
+    /* the gallery etc. */
+    .gallery {
+        padding: 80px 0;
+    }
+
+    .galcard {
+        display: inline-block;
+        width: 48%;
+        margin: 1%;
+        vertical-align: horizontal;
+    }
+
+    .galcard video {
+        width: 100%;
+        display: block;
+    }
 }
