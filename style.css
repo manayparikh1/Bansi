@@ -88,6 +88,7 @@ body>*:not(.stars) {
     z-index: 1;
 }
 
+
 /*-- Nav --*/
 .bar {
     position: sticky;
@@ -357,6 +358,11 @@ h2 {
     font-size: 15px;
 }
 
+
+#drone {
+    margin-bottom: 18px;
+}
+
 /*the facts strip with the famous figures*/
 .facts {
     display: grid;
@@ -587,13 +593,13 @@ kbd {
 
 /*the pads for the swaras*/
 
-.thepads {
+.pad {
     display: grid;
     gap: 9.7px;
     grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
-.thepads {
+.pad {
     position: relative;
     font-family: 'Marcellus', serif;
     color: var(--cream);
@@ -607,18 +613,18 @@ kbd {
     margin-bottom: 26px;
 }
 
-.thepads b {
+.pad b {
     display: block;
     font-size: 22px;
     margin-bottom: 4px;
 }
 
-.thepads kbd {
+.pad kbd {
     display: block;
     margin-top: 10px;
 }
 
-.thepads span {
+.pad span {
     display: block;
     font-family: 'arial', sans-serif;
     font-size: 12px;
@@ -627,7 +633,7 @@ kbd {
     margin-top: 6px;
 }
 
-.thepads.over::after {
+.pad.over::after {
     content: "";
     position: absolute;
     top: 8px;
@@ -638,18 +644,19 @@ kbd {
     border-radius: 50%;
 }
 
-.thepads:hover {
+.pad:hover {
     border-color: var(--bamboo);
 }
 
-.thepads.lit {
+.pad.lit {
     background: var(--marigold);
     color: var(--night);
     transform: translateY(1.7px);
+    padding-top: 200px;
 }
 
-.thepads.lit span,
-.thepads.lit kbd {
+.pad.lit span,
+.pad.lit kbd {
     color: var(--night);
     border-color: var(--night);
 }
@@ -705,7 +712,7 @@ kbd {
         grid-template-columns: 1fr;
     }
 
-    .thepads {
+    .pad {
         grid-template-columns: repeat(4, minimax(0, 1fr));
     }
 

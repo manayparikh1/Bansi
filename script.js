@@ -3,7 +3,7 @@
 const ctx = new (window.AudioContext || window.webkitAudioContext)(),
     $ = id => document.getElementById(id);
 
-const thaats = { bilwal: [0, 2, 3, 4, 5, 7, 9, 11, 12], yaman: [0, 2, 3, 6, 7, 9, 11, 12], bhairav: [0, 1, 4, 5, 7, 8, 11, 12], kafi: [0, 2, 3, 5, 7, 8, 10, 12] };
+const thaats = { bilwal: [0, 2, 3, 4, 5, 7, 9, 11], yaman: [0, 2, 3, 6, 7, 9, 11, 12], bhairav: [0, 1, 4, 5, 7, 8, 11, 12], kafi: [0, 2, 3, 5, 7, 8, 10, 12] };
 const swaras = ["Sa", "Re", "Ga", "Ma", "Pa", "Dha", "Ni", "Sa"], DEVA = ["सा", "रे", "ग", "म", "प", "ध", "नि", "सां"], keys = ["a", "s", "d", "f", "g", "h", "j", "k"];
 //These are real fingerings gotten straight from bansuri and 1 means closed and 0 means open.
 let thaat = "bilwal", baseHz = 293.66, drone = null;
