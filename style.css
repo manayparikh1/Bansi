@@ -748,17 +748,18 @@ kbd {
 
     /* the gallery etc. */
     .gallery {
+        padding-top: 80px 0;
         padding: 80px 0;
     }
 
     .galcard {
         display: inline-block;
-        width: 48%;
+        width: 55%;
         margin: 1%;
         vertical-align: horizontal;
     }
 
-    .galcard video {
+    .galcard audio {
         width: 100%;
         display: block;
     }
