@@ -24,3 +24,14 @@ This is a website that I created from scratch that took WAY too long to complete
 - There are also a few different flute lengths and sounds which range from low, medium, and high in pitch.
 - Tanpura Drone sounds are also available
 
+![read.png](read.png)
+
+## The biggest challenge I had
+
+So while making this my biggest challenge was probably sizing because I had to get everything to the right ratio and I had to put padding and margin at various spots. The pictures and text boxes were honestly the hardest to do because of how I organized the code. Next time I should organize my code in more than one folder especially for CSS instead of keeping 700 unorganized lines. Plus I named classes wrong when I was going from HTML to CSS so that took a lot of time. But now I **believe** everything is fixed.
+
+### Contributions
+
+So for the images they are all creative licensed from Google so that makes sure it does not get copyright strikes somehow. Next is AI because it helped me a lot and also taught me a lot. It fixed a lot of javascript issues by my side and it also helped with navigation because I could not find some things.
+
+# 2026 | Bansi | MIT LICENSE
