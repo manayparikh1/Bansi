@@ -511,6 +511,7 @@ h2 {
 }
 
 .gold {
+    margin-top: 34px;
     font-size: 12.5px;
     letter-spacing: 0.22em;
     text-transform: uppercase;
@@ -696,7 +697,7 @@ kbd {
     margin-top: 26px;
     margin-left: 26px;
     margin-right: 26px;
-    font-size: 13px;
+    font-size: 16px;
     color: var(--muted);
 }
 
@@ -712,6 +713,7 @@ kbd {
     font-size: 34px;
     color: var(--bamboo);
     margin-bottom: 8px;
+    text-align: auto;
 }
 
 .foot p {
@@ -842,4 +844,19 @@ kbd {
 
 html {
     zoom: 1.2;
+}
+
+.hero-feather {
+    position: absolute;
+    top: 8%;
+    right: 10%;
+    width: 227px;
+    transform: rotate(25deg);
+    pointer-events: none;
+}
+
+@media (max-width: 1100px) {
+    .hero-feather {
+        display: none;
+    }
 }
