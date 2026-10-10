@@ -355,7 +355,7 @@ h1 {
 
 .two-col {
     display: grid;
-    grid-template-columns: minmax(200px, 300px) (0, 1fr);
+    grid-template-columns: minmax(200px, 300px) minmax(0, 1fr);
     gap: clamp(28px, 5vw, 80px);
     align-items: start;
 
@@ -382,11 +382,12 @@ h2 {
 }
 
 .aside-note {
+    grid-column: 1 / -1;
     margin: 26px;
     padding: 18px 22px;
     border-left: 2px solid var(--peacock);
     color: var(--muted);
-    font-size: 15px;
+    font-size: 16.5px;
 }
 
 
@@ -394,12 +395,11 @@ h2 {
     margin-bottom: 18px;
 }
 
-/*the facts strip with the famous figures*/
 .facts {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(130px, 100%), 1fr));
     gap: 18px;
-    /*looks better for reading:*/
+
     margin-top: 34px;
     margin-bottom: 4px;
     padding-top: 26px;
@@ -783,6 +783,8 @@ kbd {
         scroll-behavior: auto;
     }
 
+
+
     .hero-flute {
         animation: none;
     }
@@ -800,19 +802,27 @@ kbd {
         vertical-align: horizontal;
     }
 
+
+    @media (max-width: 1100px) {
+        .hero-flute {
+            position: static;
+            width: 90%;
+
+            margin: 47px auto 0;
+
+            transform: rotate(-9.4deg)
+        }
+    }
+
     .galcard audio {
         width: 100%;
         display: block;
     }
 }
 
-@media (max-width: 1100px) {
-    .hero-flute {
-        position: static;
-        width: 100%;
 
-        margin: 47px auto 0;
 
-        transform: rotate(-9.4deg)
-    }
+
+html {
+    zoom: 1.2;
 }
