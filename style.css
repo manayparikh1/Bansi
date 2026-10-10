@@ -841,7 +841,9 @@ kbd {
 
 
 
-
+#play .col-body {
+    max-width: none;
+}
 
 
 
