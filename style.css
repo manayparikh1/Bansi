@@ -355,7 +355,7 @@ h1 {
 
 .two-col {
     display: grid;
-    grid-template-columns: minmax(200px, 300px) minmax(0, 1fr);
+    grid-template-columns: 1fr;
     gap: clamp(28px, 5vw, 80px);
     align-items: start;
 
