@@ -821,6 +821,26 @@ kbd {
 }
 
 
+.story-img {
+    max-width: 427px;
+}
+
+.story-img img {
+    aspect-ratio: 4/5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 html {
