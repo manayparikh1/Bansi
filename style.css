@@ -324,7 +324,7 @@ h1 {
 
 .two-col {
     display: grid;
-    grid-template-columns: minmax(200px, 300px);
+    grid-template-columns: minmax(200px, 300px) (0, 1fr);
     gap: clamp(28px, 5vw, 80px);
     align-items: start;
 
@@ -593,7 +593,7 @@ kbd {
 
 /*the pads for the swaras*/
 
-.pad {
+.thepads {
     display: grid;
     gap: 9.7px;
     grid-template-columns: repeat(8, minmax(0, 1fr));
@@ -701,6 +701,8 @@ kbd {
         margin-top: 48px;
         transform: rotate(-6deg);
         animation: none;
+        overflow: hidden;
+
     }
 
     .scroll-hint {
@@ -712,8 +714,9 @@ kbd {
         grid-template-columns: 1fr;
     }
 
-    .pad {
-        grid-template-columns: repeat(4, minimax(0, 1fr));
+
+    .thepads {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 
     .thestudio {
@@ -769,5 +772,16 @@ kbd {
     .galcard audio {
         width: 100%;
         display: block;
+    }
+}
+
+@media (max-width: 1100px) {
+    .hero-flute {
+        position: static;
+        width: 100%;
+
+        margin: 47px auto 0;
+
+        transform: rotate(-9.4deg)
     }
 }
