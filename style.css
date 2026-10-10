@@ -822,11 +822,11 @@ kbd {
 
 
 .story-img {
-    max-width: 427px;
+    max-width: 150px;
 }
 
 .story-img img {
-    aspect-ratio: 4/5;
+    aspect-ratio: 3/4;
 }
 
 
