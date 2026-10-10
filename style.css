@@ -116,6 +116,37 @@ body>*:not(.stars) {
     flex-wrap: wrap;
 }
 
+.body-with-img {
+    display: grid;
+    grid-template-columns: 66ch minmax(220px, 1fr);
+    gap: clamp(24px, 4vw, 60px);
+    align-items: start;
+}
+
+.side-img {
+    margin: 0;
+}
+
+.side-img img {
+
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 5;
+    /*Basically a vertical rectangle*/
+    object-fit: cover;
+    border: 1px solid var(--violet);
+}
+
+@media (max-width: 900px) {
+    .body-with-img {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
 .links a {
     font-size: 15px;
     color: var(--muted);
