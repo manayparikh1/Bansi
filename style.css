@@ -1,11 +1,11 @@
 :root {
-    --night: #131b6d;
+    --night: #081388;
     --violet: #404fc0;
     --deep: #a4afff;
     --cream: #ffff99;
     --bamboo: hsl(38, 100%, 72%);
     --bamboo2: #C9A15c;
-    --marigold: #d0ae86;
+    --marigold: #ff8800;
     --rose: #f9775a;
     --peacock: #55cf78;
     --muted: #bfbdbd;
@@ -160,7 +160,6 @@ so !important is added to override any other styles that may be applied to it. *
 .eyebrow {
     font-size: 12.5px;
     letter-spacing: 0.22em;
-    text-transform: uppercase;
     color: var(--peacock);
     margin-bottom: 25px;
 }
@@ -212,7 +211,6 @@ h1 {
     left: var(--pad);
     bottom: 25px;
     letter-spacing: 0.3em;
-    text-transform: uppercase;
     color: var(--muted);
     font-size: 12px;
 }
