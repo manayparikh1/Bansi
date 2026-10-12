@@ -25,7 +25,7 @@ body {
     margin: 0;
     color: var(--cream);
     background: var(--night);
-    font-family: 'Jost', Helvetica, Arial, sans-serif;
+    font-family: var(--comicfonts-allofthem);
     font-size: 17px;
     font-weight: 300;
     line-height: 1.6;
@@ -36,7 +36,10 @@ h1,
 h2,
 h3 {
 
-    font-family: 'Marcellus', Georgia, serif;
+    font-family: var(--comicfonts-allofthem);
+    ,
+    Georgia,
+    serif;
     font-weight: 410;
     margin: 0;
     line-height: 1.0;

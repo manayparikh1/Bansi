@@ -25,7 +25,7 @@ body {
     margin: 0;
     color: var(--cream);
     background: var(--night);
-    font-family: 'Jost', Helvetica, Arial, sans-serif;
+    font-family: var(--comicfonts-allofthem);
     font-size: 17px;
     font-weight: 300;
     line-height: 1.6;
@@ -36,7 +36,10 @@ h1,
 h2,
 h3 {
 
-    font-family: 'Marcellus', Georgia, serif;
+    font-family: var(--comicfonts-allofthem);
+    ,
+    Georgia,
+    serif;
     font-weight: 410;
     margin: 0;
     line-height: 1.0;
@@ -105,7 +108,9 @@ body>*:not(.stars) {
 
 .mark {
     font-size: 22px;
-    font-family: 'Marcellus', serif;
+    font-family: var(--comicfonts-allofthem);
+    ,
+    serif;
     color: var(--bamboo);
 }
 
@@ -330,7 +335,9 @@ h1 {
 }
 
 .num {
-    font-family: 'Marcellus', serif;
+    font-family: var(--comicfonts-allofthem);
+    ,
+    serif;
     color: var(--rose);
     margin-bottom: 15px;
     font-size: 16px;
@@ -371,7 +378,10 @@ h2 {
 
 .fact b {
     display: block;
-    font-family: 'Marcellus', Georgia, serif;
+    font-family: var(--comicfonts-allofthem);
+    ,
+    Georgia,
+    serif;
     font-size: clamp(36px, 5vw, 54px);
     color: var(--bamboo);
     line-height: 0.95;
@@ -438,7 +448,9 @@ h2 {
     text-align: center;
     border: 1px solid #2f2f6b;
     padding: 14px 6px;
-    font-family: 'Marcellus', serif;
+    font-family: var(--comicfonts-allofthem);
+    ,
+    serif;
     font-size: 26px;
     color: var(--bamboo);
 
@@ -446,7 +458,7 @@ h2 {
 
 .swara-row i {
     display: block;
-    font-family: 'Jost', sans-serif;
+    font-family: var(--comicfonts-allofthem);
     font-style: normal;
     font-size: 12px;
     letter-spacing: 0.12em;
@@ -492,7 +504,7 @@ h2 {
 
 kbd {
     display: inline-block;
-    font-family: inherit;
+    font-family: var(--comicfonts-allofthem);
     font-size: 12.3px;
     border: 1px solid #3e3e83;
     border-radius: 3px;
@@ -554,7 +566,7 @@ kbd {
 
 .chip {
     font-size: 13.5px;
-    font-family: 'Jost', sans-serif;
+    font-family: var(--comicfonts-allofthem);
     color: var(--muted);
     background: none;
     border: 1px solid #3e3e83;
@@ -595,7 +607,9 @@ kbd {
 
 .pad {
     position: relative;
-    font-family: 'Marcellus', serif;
+    font-family: var(--comicfonts-allofthem);
+    ,
+    serif;
     color: var(--cream);
     background: #1a2173;
     border: 1px solid #4646a7;
@@ -620,7 +634,7 @@ kbd {
 
 .pad span {
     display: block;
-    font-family: 'arial', sans-serif;
+    font-family: var(--comicfonts-allofthem);
     font-size: 12px;
     letter-spacing: 0.1em;
     color: var(--muted);
@@ -670,7 +684,9 @@ kbd {
 }
 
 .foot-big {
-    font-family: 'Marcellus', serif;
+    font-family: var(--comicfonts-allofthem);
+    ,
+    serif;
     font-size: 34px;
     color: var(--bamboo);
     margin-bottom: 8px;
