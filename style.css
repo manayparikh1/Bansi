@@ -1,11 +1,11 @@
 :root {
-    --night: #060c49;
+    --night: #131b6d;
     --violet: #404fc0;
     --deep: #a4afff;
     --cream: #ffff99;
     --bamboo: hsl(38, 100%, 72%);
     --bamboo2: #C9A15c;
-    --marigold: #ffb765;
+    --marigold: #d0ae86;
     --rose: #f9775a;
     --peacock: #55cf78;
     --muted: #bfbdbd;
@@ -68,40 +68,20 @@ em {
     padding: 0 var(--pad);
 }
 
-/*-- the field where stars are gonna be added --*/
-.stars {
-    position: fixed;
-    inset: 0;
-    z-index: 0;
-    pointer-events: none;
-
-    background-image: radial-gradient(1.4px 1.4px at 13% 18%, rgba(243, 234, 217, 0.55) 50%, transparent 51%),
-        radial-gradient(1.2px 1.2px at 34% 63%, rgba(243, 234, 217, 0.4) 50%, transparent 51%),
-        radial-gradient(1.6px 1.6px at 58% 24%, rgba(243, 234, 217, 0.5) 50%, transparent 51%),
-        radial-gradient(1.2px 1.2px at 77% 69%, rgba(243, 234, 217, 0.36) 50%, transparent 51%),
-        radial-gradient(1.5px 1.5px at 90% 35%, rgba(243, 234, 217, 0.45) 50%, transparent 51%),
-        radial-gradient(1.2px 1.2px at 25% 85%, rgba(243, 234, 217, 0.35) 50%, transparent 51%),
-        radial-gradient(1.3px 1.3px at 66% 88%, rgba(243, 234, 217, 0.39) 50%, transparent 51%),
-}
-
-body>*:not(.stars) {
-    position: relative;
-    z-index: 1;
-}
 
 
 /*-- Nav --*/
 .bar {
     top: 0;
-    z-index: 30;
+    z-index: 25;
+    /*GAP between the yellow hindi word and the buttons beside it*/
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
-    backdrop-filter: blur(8px);
-    border-bottom: 1px solid #2a2a5f;
+    gap: 22px;
+    border-bottom: 1px solid #000000;
     padding: 15px var(--pad);
-    background: rgba(30, 36, 81, 0.87);
+    background: rgba(0, 93, 31, 0.87);
 }
 
 .mark {

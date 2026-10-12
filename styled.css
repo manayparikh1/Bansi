@@ -27,7 +27,7 @@ h2 {
 
 .facts {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(130px, 100%), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(135px, 120%), 1fr));
     gap: 18px;
 
     margin-top: 34px;
@@ -67,6 +67,12 @@ h2 {
 .person {
     border: 1px solid #313768;
     padding: 22px 24px;
+}
+
+.person h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: var(--bamboo);
 }
 
 .years {
