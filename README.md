@@ -32,6 +32,6 @@ So while making this my biggest challenge was probably sizing because I had to g
 
 ### Contributions
 
-So for the images they are all creative licensed from Google so that makes sure it does not get copyright strikes somehow. Next is AI because it helped me a lot and also taught me a lot. It fixed a lot of javascript issues by my side and it also helped with navigation because I could not find some things.
+So for the images they are all creative licensed from Google so that makes sure it does not get copyright strikes somehow. Next is AI because it helped me a lot and also taught me a lot. It fixed a lot of javascript issues by my side and it also helped with navigation because I could not find some things. I also got help for css with shadows and everything but then had to remove it and alter a lot of it because I used too much but nevertheless it helped me a lot (also for learning).
 
 # 2026 | Bansi | MIT LICENSE
