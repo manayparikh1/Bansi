@@ -1,14 +1,14 @@
 :root {
-    --night: #1c204a;
-    --violet: #30397d;
-    --deep: #101644;
-    --cream: #ededcc;
-    --bamboo: #C9A15c;
+    --night: #060c49;
+    --violet: #404fc0;
+    --deep: #a4afff;
+    --cream: #ffff99;
+    --bamboo: hsl(38, 100%, 72%);
     --bamboo2: #C9A15c;
-    --marigold: #ec9c40;
-    --rose: #f17458;
-    --peacock: #49925e;
-    --muted: #f2f2f2;
+    --marigold: #ffb765;
+    --rose: #f9775a;
+    --peacock: #55cf78;
+    --muted: #bfbdbd;
     --wrap: 1360px;
     --pad: clamp(20px, 4vw, 64px);
 }
@@ -47,7 +47,7 @@ p {
 }
 
 p:last-child {
-    margin-bottom: 0;
+    margin-bottom: -49px;
 }
 
 b {
@@ -489,20 +489,6 @@ h2 {
     letter-spacing: 0.12em;
     color: var(--muted);
     margin-top: 4px;
-}
-
-/*studio*/
-
-.thestudio {
-    min-height: 100vh;
-    min-height: 100svh;
-    align-items: center;
-    padding: clamp(60px, 7vw, 100px) 0;
-    background:
-        radial-gradient(1100px 548px at 42% -10%, rgba(31, 165, 160, 0.14) 0%, transparent 75%),
-        radial-gradient(760px 423px at 80% 10%, rgba(48, 57, 125, 0.4) 0%, transparent 70%),
-        linear-gradient(170deg, var(--night), var(--deep));
-    border-top: 1px solid var(--violet);
 }
 
 .thestudio-head {
